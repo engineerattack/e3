@@ -16,5 +16,5 @@ int main()
     scanf("%d%d", &a, &b);
     printf("\n\nGreatest Common Divisor is: %d", gcd(a, b)); // function calling
     printf("\n\n\t\t\tCoding is Fun !\n\n\n");
-    return 0;
+   
 }
