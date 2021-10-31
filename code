@@ -1,0 +1,20 @@
+ #include<stdio.h>
+
+int gcd(int c, int d)   // function definition
+{
+    if(d == 0)
+        return c;
+    else
+        return gcd(d, c%d);
+}
+
+int main()
+{
+    printf("\n\n\t\tStudytonight - Best place to learn\n\n\n");
+    int a, b;
+    printf("Enter 2 numbers: \n\n");
+    scanf("%d%d", &a, &b);
+    printf("\n\nGreatest Common Divisor is: %d", gcd(a, b)); // function calling
+    printf("\n\n\t\t\tCoding is Fun !\n\n\n");
+    return 0;
+}
